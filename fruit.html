@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>face-back</title>
+<link href="fruit.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+<div class="container" id='container'>
+	<div class='main'>
+		<!-- 游戏规则 -->
+		<div class='game_rule' id='game_rule'>
+			游戏规则：
+			<p>1、</p>
+			<p>2、</p>
+			<p>3、</p>
+		</div>
+		<!-- 等级，时间，分数 -->
+		<div class='top'>
+			<p class='p_l'>
+				<span class='level'>
+					Level:
+				</span>
+				<span class='level_value' id='level_value'>
+					1
+				</span>
+			</p>
+			<p>
+				<span class='time'>
+					Time:
+				</span>
+				<span class='time_value' id='time_value'>
+					
+				</span>
+			</p>
+			<p class='top_right'>				
+				<span class='score'>
+					Score:
+				</span>
+				<span class='score_value' id='score_value'>
+					0
+				</span>
+			</p>	
+		</div>	
+		<!-- 图片	 -->
+		<div class='pic' id='pic'>
+			<img id='img' class='img' src='#' />
+		</div>
+		<!-- 没有按键时的提示框 -->
+		<div class='pic_mask_container' id='pic_mask_container'>
+			<div class='pic_mask' id='pic_mask'>			
+			</div>
+			<!-- 升级或降级时，出现的提示 -->
+			<div class='level_change' id='level_change'>
+				<p id='n_pic'>	
+				等级升级为:'+level+';请判断第1张图片与第'+(level+1)+'张图片是否一样	
+				</p>
+			</div>
+		</div>
+		<!-- 一次按键后的得分 -->
+		<div class='result_s' id='result_s'>
+			0
+		</div>
+		<!-- 进度条 -->
+		<div class='sign' id='sign'>
+			<ul id='sign_ul'>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+		</div>
+		<!-- 一次按键后的结果 -->
+		<div class='result' id='result'>			
+		</div>
+		<!-- play的开始按钮		 -->
+		<div class='play' id='play'>			
+		</div>
+		<!-- 匹配或不匹配的按钮 -->
+		<div class='match_or' id='match_or'>
+			<img src='fruit/nm.png' id='no_match'/>
+			<img class='match' src='fruit/m.png' id='match' />
+		</div>		
+	</div>
+
+	<!-- 放置音频的容器 -->
+	<div class='foot' id='foot'>		
+	</div>
+</div>
+
+
+
+<!-- 保存记录的字段 -->
+<div class='record' id='record'>	
+</div>
+
+<script type="text/javascript" src="jquery-1.9.1.js"></script>
+<script type="text/javascript" src="fruit.js"></script>
+</body>
+</html>

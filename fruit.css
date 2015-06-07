@@ -1,0 +1,206 @@
+.container{
+	width:1000px;
+	height:700px;
+	position:absolute;
+	left:50%;
+	top:50%;	
+	margin-left: -500px;
+	margin-top: -350px;	
+}
+
+.main{
+	width:100%;
+	height:700px;
+	position: relative;
+}
+
+.game_rule{
+	position: absolute;
+	top:115px;
+	left:210px;
+}
+
+.top{
+	position: absolute;
+	top:0px;
+	left:30%;
+}
+
+.top p{
+	float:left;
+	margin-top:0px;
+	margin-bottom:0px;
+	font-family: 微软雅黑;
+	font-size: 10px;
+	font-weight: bold;
+	margin-left: 38px;
+}
+
+.top_right{	
+	background: url(fruit/score_flag.png) no-repeat 0px 2px;
+}
+
+.score{
+	margin-left: 16px;
+}
+
+.mid_con{
+	width:105px;
+	height:6px;
+	margin-top:0px;
+	margin-bottom:0px;
+	padding-left: 0px;
+}
+
+.play{
+	background-image: url(fruit/play.png);
+	width:132px;
+	height:42px;
+	position:absolute;
+	bottom:0px;
+	left:45%;
+}
+
+.match_or{
+	display:none;	
+	width:244px;
+	height:32px;
+	position:absolute;
+	bottom:0px;
+	left:40%;
+}
+
+.match_or img{
+	float:left;
+}
+
+img.match{
+	float:right;	
+}
+
+.result_s{
+	position: absolute;
+	top:30px;
+	left:49%;
+	display: none;
+	width:50px;
+	height:50px;
+	color:gray;
+	font-size: 30px;
+}
+
+.sign{
+	width:95px;
+	height:6px;
+	position:absolute;
+	bottom: 85px;
+	left:43%;
+	display: none;
+}
+
+.sign ul{
+	width:102px;
+	height:6px;
+}
+
+.sign ul li{
+	width:27px;
+	height:6px;
+	margin-left: 7px;
+	background-color: #cbcbcb;
+	list-style: none;
+	float:left;
+}
+
+.sign ul li.current{
+	background-color: red;
+}
+
+.pic{
+	width:500px;
+	height:500px;	
+	position: absolute;
+	top:50px;
+	left:25%;
+	overflow: hidden;	
+	display: none;
+}
+
+.pic_mask_container{
+	width:500px;
+	height:500px;	
+	position: absolute;
+	top:50px;
+	left:25%;	
+}
+
+.pic_mask{
+	width:494px;
+	height:494px;	
+	position: absolute;
+	top:0px;
+	left:0px;
+	border:3px solid #da8402;
+	display: none;
+}
+
+.result{
+	width:44px;
+	height:45px;	
+	position: absolute;
+	bottom:130px;
+	left:50%;
+	background-image: url(fruit/wrong.png);
+	display: none;
+}
+
+.img{
+	position: absolute;	
+}
+
+.new_img{
+	position: absolute;
+	left:400px;
+	opacity: 0;
+}
+
+.foot{
+	width:100%;
+	height:0px;	
+}
+
+.foot .audio{
+	width:0px;
+	height:0px;
+}
+
+.record {
+	position: absolute;
+	top:700px;
+	left:10px;
+	width:100%;
+	color:black;	
+}
+
+.level_change{
+	width:500px;
+	height:60px;
+	background-color: gray;
+	margin: 0 auto;
+	/*padding:20px;*/
+	text-align: center;
+	display: none;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	margin-left: -250px;
+	margin-top: -30px;	
+	font-size: 20px;
+}
+
+.level_change p{
+	font-size: 20px;
+	margin: 0px;
+	/*text-align: center;*/
+}
+
